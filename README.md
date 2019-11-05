@@ -15,7 +15,7 @@ Next, I modified the Bird script so that these animations all play together when
 
 4. Added Score and Game Over UI to the scene. This is done by creating a new text object in the scene (called ScoreText) which in turn creates a canvas that is a parent of the text. I deleted the events system that also gets created as I will not be interacting with the UI. In the inspector I've set the font to the imported font, changed the text size and allowed horizontal and vertical overflow so that the text goes outside the text box. Also added a shadow component to the text so it's visible on all backgrounds. Changed text colour to white. Picked centre and middle alignment for the box. Set bottom-centre anchor preset and adjusted position for Y axis. I duplicated this for the GameOverText and PlayAgainText and adjusted settings accordingly. The PlayAgainText is a child of the GameOverText. Finally, I've disabled the GameOverText so it doesn't appear when you start the game.
 
-5. 
+5.  
 
 
 
